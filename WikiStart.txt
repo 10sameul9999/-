@@ -1,0 +1,40 @@
+We are slowly upgrading API, make sure you have a look on new [https://www.opensubtitles.com/docs/api/html/index.htm Open Subtitles REST API] - not production ready
+
+=== Introduction ===
+[http://www.opensubtitles.org OpenSubtitles.org] was developed for easy downloading and uploading subtitles for movies. It supports some unique functions:
+ * download/upload/search subtitles by [wiki:OSDb OSDb protocol] using special [wiki:HashSourceCodes Hash]
+ * biggest multi-language subtitle database (website available in more than 30 languages)
+ * no registration needed to download or upload subtitles
+ * advanced search (by genre, imdb rating, year...)
+ * search for more than one language
+ * search for many subtitles simultaneously ([http://www.opensubtitles.org/multisearch multi-search])
+ * get search results by [wiki:GetSearchResults mail or rss/atom]
+ * site is "open" (you can get [wiki:PageInXML every page as XML])
+ * support for third party applications (no need to visit webpage for downloading subtitles)
+ * Media Player Classic [http://blog.opensubtitles.org/opensubtitlesorg/downloading-subtitles-using-mpc ISDb support]
+ * can act as a subtitle server for other subtitle sites
+ * we are looking for your feature requests (site is still in development, use this trac to report new ideas, bugs...)
+
+=== Programs using !OpenSubtitles API ===
+ * [wiki:ProgramsUsingAPI Programs using OpenSubtitles.org API]
+ * [wiki:ProgramsUsingAPInew Programs using OpenSubtitles.com API (new)]
+
+=== Developers ===
+ * [wiki:DevReadFirst Read First Please]
+ * [wiki:OSDb OSDb protocol]
+ * [wiki:XMLRPC XML RPC API Documentation], [wiki:XmlRpcIntro enhanced version] (work in progress)
+ * [wiki:HashSourceCodes Hash Source Codes] - you don't have to reinvent the wheel 
+ * [wiki:RarSourceCodes Rar Source Codes] (for reading RAR archives with ''store'' compression)
+ * [wiki:MovieIdentification Movie Identification]
+
+=== Links ===
+ * [http://www.opensubtitles.org OS Home Page]
+ * [http://forum.opensubtitles.org OS Forum]
+ * [http://blog.opensubtitles.org OS Blog]
+ * [http://2pu.net/v/opensubtitles Contact OS]
+ * [http://urd.let.rug.nl/tiedeman/OPUS/ OPUS - Open Source Parallel Corpus]
+ * [http://universalsubtitles.org/ Universal Subtitles]
+ * [http://www.serpsite.com/youtube-subtitles-download-tool/ Youtube subtitles downloader]
+ * [http://wiki.whatwg.org/wiki/Timed_track_formats Timed track formats]
+ * [http://www.whatwg.org/specs/web-apps/current-work/websrt.html WebSRT]
+
